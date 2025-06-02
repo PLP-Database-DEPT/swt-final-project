@@ -98,26 +98,66 @@ On successful completion, students will be able to:
 4. **4 July:** Complete package + `/Presentation/` folder  
 
 #### **Final Repo Submission (4 July):**  
-`https://github.com/username/PSD311_YourLastName_ID.git` containing: 
+**Repository:** `https://github.com/username/PSD311_LastName_ID`  
+**Submission Deadline:** 4 July 2024
+
+## Repository Structure
+```PSD311_LastName_ID/
 │
-├── /Prototype/              [Vibe-generated code]
-│   ├── app/                 (Main application files)
-│   ├── database/            (DB scripts/schema)
-│   ├── config/              (Configuration files)
-│   └── README.md            (Brief setup instructions with deployment link "Lovable AI")
+├── .gitignore # Standard exclusions (node_modules/, .env, etc.)
+├── LICENSE # Open-source license (MIT recommended)
 │
-├── /Testing/
-│   ├── Test_Plan.pdf        (2-page max ISTQB-style plan)
-│   ├── Test_Cases.xlsx      (15+ cases, 3+ techniques)
-│   ├── Defect_Report.pdf    (10+ defects with screenshots)
-│   └── /Automation_Scripts/
-│       ├── login_test.js    (Sample script 1)
-│       ├── crud_test.py     (Sample script 2)
-│       └── README.md        (Execution instructions)
+├── Prototype/
+│ ├── app/
+│ │ ├── main.js # Core application logic
+│ │ └── index.html # Frontend entry point
+│ ├── database/
+│ │ ├── schema.sql # Database structure
+│ │ └── test_data.json # Sample data
+│ ├── config/
+│ │ ├── config.yml # Environment settings
+│ │ └── routes.json # API endpoints
+│ └── README.md # Project documentation
 │
-└── /Presentation/
-    ├── Test_Summary.pptx    (10-slide max report)
-    └── Demo_Video.mp4       (5-minute max screen recording) 
+├── Testing/
+│ ├── Test_Plan.pdf # 2-page max ISTQB-style plan
+│ ├── Test_Cases.xlsx # 15+ test cases
+│ ├── Defect_Report.pdf # 10+ documented defects
+│ └── Automation_Scripts/
+│ ├── login_test.js # Selenium/Puppeteer tests
+│ ├── api_test.py # API test scripts
+│ ├── results/ # Test output reports
+│ └── README.md # Setup instructions
+│
+└── Presentation/
+├── Test_Summary.pptx # 10-slide summary
+└── demo_video.mp4 # 5-minute demonstration
+```
+
+## Prototype README.md Example
+
+```markdown
+# SDG-Aligned Application
+
+![Deployment Badge](https://img.shields.io/badge/Live_Demo-Lovable_AI-green)
+
+## SDG Alignment
+This project addresses **SDG 4: Quality Education** through...
+
+## Setup
+``` bash
+npm install
+npm start
+```
+
+## Submission Checklist
+1. [ ] Repository follows naming convention
+2. [ ] All required files are present
+3. [ ] Test cases cover 3+ techniques
+4. [ ] Defect reports include screenshots
+5. [ ] Video demonstration is ≤5 minutes
+
+**Note:** Replace placeholders (`username`, `LastName`, `ID`) with your actual information.
 
 **Late Penalty:** 5% deduction per day  
 
