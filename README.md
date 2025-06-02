@@ -93,8 +93,8 @@ On successful completion, students will be able to:
 ### 8. SUBMISSION REQUIREMENTS  
 #### **Weekly Submissions:**  
 1. **13 June:** `/Prototype/` folder (Vibe-generated code)  
-2. **21 June:** `/Testing/Test_Plan.pdf` + `/Testing/Test_Cases.xlsx`  
-3. **28 June:** `/Testing/Defect_Report.pdf` + `/Testing/Automation_Scripts/`  
+2. **20 June:** `/Testing/Test_Plan.pdf` + `/Testing/Test_Cases.xlsx`  
+3. **27 June:** `/Testing/Defect_Report.pdf` + `/Testing/Automation_Scripts/`  
 4. **4 July:** Complete package + `/Presentation/` folder  
 
 #### **Final Repo Submission (4 July):**  
